@@ -13,9 +13,9 @@ $(document).ready(function() {
 		});
 	});
  
-//    $('#trigger').on('click', function() {
-//        $( this ).text('Clicked!');
-//    })
+    $('#trigger').click(function() {
+        $('.sections').each().addClass("slideLeft");
+    })
     
     
 });

@@ -69,15 +69,27 @@ h2 {
     overflow: none;
 }
 
+.nav-field {
+    width: 30;
+/*
+    position: fixed;
+    display: inline-block;
+*/
+}
+
+
 .nav-box {
+/
+    display: inline;
     position: fixed;
     background-color: white;
     top: 60%;
-    height: 12em;
+    height: 13.7em;
     width: 12%;
     overflow: none;
     box-shadow: 1.5em 0.25em 2em rgba(0, 0, 0, 0.41);
 }
+    
 
 .nav-box ul {
     top: 50%;
@@ -85,6 +97,10 @@ h2 {
     margin-left: -2em;
     line-height: 2em;
     text-transform: uppercase;
+}
+
+.nav-mini {
+    display: none;
 }
 
 .section-content {
